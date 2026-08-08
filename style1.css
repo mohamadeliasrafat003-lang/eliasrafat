@@ -1,0 +1,433 @@
+/* ==========================
+   GOOGLE FONT
+========================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Inter',sans-serif;
+}
+
+body{
+    background:#f7f8fc;
+}
+
+.container{
+    width:1200px;
+    max-width:95%;
+    margin:auto;
+}
+
+.mentor-section{
+    padding:70px 0;
+}
+
+/* ==========================
+   HEADING
+========================== */
+
+.mentor-section h1{
+    font-size:50px;
+    font-weight:700;
+    text-align:center;
+    line-height:1.15;
+    color:#111;
+}
+
+.mentor-section h1 span{
+    color:#6259ff;
+}
+
+.subtitle{
+    text-align:center;
+    margin-top:18px;
+    color:#a3acc2;
+    font-size:17px;
+    font-weight:500;
+}
+
+/* ==========================
+   TOP BAR
+========================== */
+
+.top-bar{
+    margin-top:55px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.search-box{
+    width:310px;
+    height:46px;
+    background:#fff;
+    border:1px solid #d9dce7;
+    border-radius:12px;
+    display:flex;
+    align-items:center;
+    padding:0 16px;
+}
+
+.search-box i{
+    color:#a0a7b7;
+    margin-right:12px;
+    font-size:14px;
+}
+
+.search-box input{
+    border:none;
+    outline:none;
+    width:100%;
+    font-size:14px;
+    background:transparent;
+}
+
+.explore-btn{
+    border:none;
+    background:#6259ff;
+    color:#fff;
+    padding:14px 24px;
+    border-radius:12px;
+    font-size:14px;
+    font-weight:600;
+    cursor:pointer;
+    transition:.3s;
+}
+
+.explore-btn:hover{
+    background:#4f47ea;
+}
+
+/* ==========================
+   GRID
+========================== */
+
+.mentor-grid{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:28px;
+    margin-top:40px;
+}
+
+/* ==========================
+   CARD
+========================== */
+
+.mentor-card{
+    background:#fff;
+    border-radius:18px;
+    padding:14px;
+    box-shadow:0 12px 30px rgba(0,0,0,.08);
+    transition:.35s;
+}
+
+.mentor-card:hover{
+    transform:translateY(-8px);
+}
+
+.mentor-card img{
+    width:100%;
+    height:170px;
+    object-fit:cover;
+    border-radius:14px;
+}
+
+.mentor-card h3{
+    margin-top:16px;
+    font-size:24px;
+    color:#111;
+    font-weight:700;
+    display:flex;
+    align-items:center;
+    gap:8px;
+}
+
+.mentor-card h3 i{
+    color:#2ecc71;
+    font-size:15px;
+}
+
+.role{
+    margin-top:8px;
+    color:#8a91a5;
+    font-size:15px;
+}
+
+/* ==========================
+   INFO ROW
+========================== */
+
+.info{
+    margin-top:14px;
+    display:flex;
+    gap:1rem;
+    align-items:center;
+    font-size:13px;
+    color:#8d94a8;
+}
+
+.info span{
+    display:flex;
+    align-items:center;
+    gap:6px;
+}
+
+.info i{
+    color:#666;
+    font-size:12px;
+}
+
+/* ==========================
+   RATING
+========================== */
+
+.rating{
+    margin-top:12px;
+    font-size:14px;
+    color:#111;
+    font-weight:600;
+}
+
+.rating span{
+    color:#8b92a7;
+    font-size:13px;
+    margin-left:5px;
+    font-weight:500;
+}
+
+/* ==========================
+   BOTTOM
+========================== */
+
+.bottom1{
+     margin-top:22px;
+    display:flex;
+    justify-content:space-between;
+    align-items:flex-end;
+}
+
+
+
+.bottom1 small{
+    display:block;
+    color:#9aa1b4;
+    font-size:12px;
+    margin-bottom:6px;
+}
+
+.bottom1 h4{
+    font-size:20px;
+    color:#111;
+    font-weight:700;
+}
+
+.bottom1 h4 span{
+    font-size:12px;
+    color:#9aa1b4;
+    font-weight:500;
+}
+
+.bottom1 button{
+    border:1px solid #6259ff;
+    background:#fff;
+    color:#6259ff;
+    padding:8px 12px;
+    border-radius:8px;
+    font-size:12px;
+    font-weight:700;
+    cursor:pointer;
+    transition:.3s;
+}
+
+.bottom1 button:hover{
+    background:#4d45e0;
+    color:#fff;
+    border-color:#6259ff;
+}
+
+.bottom{
+    margin-top:22px;
+    display:flex;
+    justify-content:space-between;
+    align-items:flex-end;
+}
+
+.bottom small{
+    display:block;
+    color:#9aa1b4;
+    font-size:12px;
+    margin-bottom:6px;
+}
+
+.bottom h4{
+    font-size:20px;
+    color:#111;
+    font-weight:700;
+}
+
+.bottom h4 span{
+    font-size:12px;
+    color:#9aa1b4;
+    font-weight:500;
+}
+
+.bottom button{
+    border:1px solid #d9dce7;
+    background:#fff;
+    color:#111;
+    padding:8px 14px;
+    border-radius:8px;
+    font-size:12px;
+    font-weight:600;
+    cursor:pointer;
+    transition:.3s;
+}
+
+.bottom button:hover{
+    background:#6259ff;
+    color:#fff;
+    border-color:#6259ff;
+}
+
+/* ==========================
+   RESPONSIVE
+========================== */
+
+@media (max-width:1200px){
+
+    .container{
+        max-width:95%;
+    }
+
+    .mentor-grid{
+        grid-template-columns:repeat(3,1fr);
+    }
+
+}
+
+@media (max-width:992px){
+
+    .mentor-section h1{
+        font-size:46px;
+    }
+
+    .top-bar{
+        flex-direction:column;
+        gap:20px;
+        align-items:stretch;
+    }
+
+    .search-box,
+    .explore-btn{
+        width:100%;
+    }
+
+    .mentor-grid{
+        grid-template-columns:repeat(2,1fr);
+    }
+
+}
+
+@media (max-width:768px){
+
+    .mentor-section{
+        padding:60px 0;
+    }
+
+    .mentor-section h1{
+        font-size:38px;
+        line-height:1.3;
+    }
+
+    .subtitle{
+        font-size:15px;
+    }
+
+    .mentor-card img{
+        height:220px;
+    }
+
+    
+    .bottom1{
+        flex-direction:column;
+        align-items:flex-start;
+        gap:18px;
+    }
+
+    .bottom1 button{
+        width:100%;
+    }
+
+    .bottom{
+        flex-direction:column;
+        align-items:flex-start;
+        gap:18px;
+    }
+
+    .bottom button{
+        width:100%;
+    }
+
+}
+
+@media (max-width:576px){
+
+    .mentor-grid{
+        grid-template-columns:1fr;
+    }
+
+    .mentor-section h1{
+        font-size:30px;
+    }
+
+    .subtitle{
+        font-size:14px;
+    }
+
+    .mentor-card{
+        padding:18px;
+    }
+
+    .mentor-card h3{
+        font-size:22px;
+    }
+
+    .mentor-card img{
+        height:250px;
+    }
+
+    .bottom1 h4{
+        font-size:24px;
+    }
+
+    .bottom h4{
+        font-size:24px;
+    }
+
+}
+
+@media (max-width:400px){
+
+    .mentor-section h1{
+        font-size:26px;
+    }
+
+    .mentor-card{
+        padding:15px;
+    }
+
+    .mentor-card img{
+        height:220px;
+    }
+
+    .search-box{
+        padding:0 12px;
+    }
+
+    .explore-btn{
+        padding:13px;
+        font-size:14px;
+    }
+
+}
